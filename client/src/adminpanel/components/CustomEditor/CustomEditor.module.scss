@@ -1,0 +1,21 @@
+.customeditor{
+    margin: 13px 0;
+
+    &__title {
+        font-size: 14px;
+        margin: 0 0 3px 0;
+    }
+
+    &__wrap {
+        border: 1px solid #CAD5E0;
+    }
+
+    &__input {
+        border-top: 1px solid #CAD5E0;
+        padding: 20px 10px;
+    }
+
+    img,iframe {
+        max-width: 100%;
+    }
+}

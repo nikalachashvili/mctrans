@@ -1,0 +1,10 @@
+.lastblog {
+    display: block;
+    position: relative;
+}
+
+.mbview{
+  @media (max-width: 1124px) {
+      padding: 5px;
+  }
+}

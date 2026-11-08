@@ -1,0 +1,13 @@
+import getApi from './getApi';
+
+// GET
+const users = await getApi.getData('/users');
+
+// POST
+const newUser = await getApi.postData('/users', { name: 'Davit' });
+
+// PUT
+const updatedUser = await getApi.putData('/users/1', { name: 'Updated Name' });
+
+// DELETE
+await getApi.deleteData('/users/1');

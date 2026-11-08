@@ -1,0 +1,28 @@
+.section {
+    padding: 60px 0;
+
+    &__title {
+        margin: 0;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    &__head {
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: 1px solid #E9E9E9;
+        position: relative;
+        margin-bottom: 20px;
+
+        &::before {
+            content: "";
+            width: 100px;
+            height: 2px;
+            background-color: #405FF2;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}

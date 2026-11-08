@@ -1,0 +1,47 @@
+.formpage {
+    display: block;
+    position: relative;
+}
+
+.form {
+    background-color: #fff;
+    border-radius: 22px;
+    border: 1px solid #33434D1C;
+    padding: 19px 33px;
+
+    &__title {
+        margin: 0;
+        padding: 0;
+        padding-top: 19px;
+        padding-bottom: 19px;
+        font-weight: 700;
+        font-size: 25px;
+        color: #050B20;
+    }
+}
+
+.cover {
+    &__img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+        &--smoll {
+            padding-top: 35px;
+            padding-left: 50px;
+        }
+    }
+}
+
+.rowmobile {
+    @media (max-width: 1124px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,59 @@
+.salesmanager {
+    display: block;
+    position: relative;
+}
+
+.leftbutton {
+
+    position: absolute;
+    left: 44%;
+    top: 100%;
+    z-index: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffff;
+    color: #333;
+    transition: background-color 0.3s ease;
+    border: none;
+    width: 60px;
+    height: 40px;
+    border-color: #E9E9E9;
+
+    @media (max-width: 1124px) {
+        left: 35%;
+    }
+
+    @media (max-width: 428px) {
+        left: 25%;
+    }
+}
+
+.rightbutton {
+    position: absolute;
+    right: 44%;
+    top: 100%;
+    z-index: 1;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffff;
+    color: #333;
+    transition: background-color 0.3s ease;
+    border: none;
+    width: 60px;
+    height: 40px;
+    border-color: #E9E9E9;
+
+    @media (max-width: 1124px) {
+        right: 35%;
+    }
+
+    @media (max-width: 428px) {
+        right: 25%;
+    }
+}
